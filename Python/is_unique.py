@@ -15,7 +15,7 @@ is_unique = True
 for i in range(len(my_str)):
     for j in range(i + 1, len(my_str)):
         if my_str[i] == my_str[j]:
-            print(j)
+            print(j)   # print the point the fale
             is_unique = False
 
 if is_unique:
